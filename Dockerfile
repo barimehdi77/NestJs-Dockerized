@@ -15,7 +15,7 @@ RUN npm install
 # Bundle app source
 ADD nest-js-starter/ ./
 
-# RUN npm run build
+RUN npm run build
 
 EXPOSE 8080
 CMD [ "node", "dist/main" ]
