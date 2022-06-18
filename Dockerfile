@@ -1,6 +1,6 @@
 FROM node:16
 
-# Create app directory
+# Create app directory, this is in our container/in our image
 WORKDIR /usr/src/app
 
 # Install app dependencies
